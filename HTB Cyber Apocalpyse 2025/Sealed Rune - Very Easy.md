@@ -1,7 +1,6 @@
 ## Main Function
 ![[Screenshot 2025-04-01 at 10.45.44 AM.png]]
 What the main function does is to display some terminal art and some text and then asks for user input. Then this user input is checked using the check input function.
-
 ![[Screenshot 2025-04-01 at 10.46.41 AM.png]]
 Here the argument of check_input, which from main is the user_input is compared to `rax_1` which is the result of `decode_secret()`. `strcmp` returns 0 when two strings are identifical. 
 
