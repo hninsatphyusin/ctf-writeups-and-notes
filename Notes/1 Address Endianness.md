@@ -10,7 +10,7 @@ Order of its bytes in which they are stored or retrieved from memory
 
 Example: 
 Address:  `0x0011223344556677`
-![[Screenshot 2025-01-12 at 1.18.53 PM.png]]
+![](../Assets/Screenshot%202025-01-12%20at%201.18.53%20PM.png)
 
 Intel/AMD x86 - Little-endian byte order 
 

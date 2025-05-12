@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Cyber Apocalpyse 2025/Endless Cycle - Easy.md",
+                "file": "Notes/12 Stripped, Dynamically Linked.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Endless Cycle - Easy"
+              "title": "12 Stripped, Dynamically Linked"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB Cyber Apocalpyse 2025/Endless Cycle - Easy.md",
+                "file": "Notes/12 Stripped, Dynamically Linked.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Endless Cycle - Easy"
+              "title": "Backlinks for 12 Stripped, Dynamically Linked"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB Cyber Apocalpyse 2025/Endless Cycle - Easy.md",
+                "file": "Notes/12 Stripped, Dynamically Linked.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Endless Cycle - Easy"
+              "title": "Outgoing links from 12 Stripped, Dynamically Linked"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB Cyber Apocalpyse 2025/Endless Cycle - Easy.md",
+                "file": "Notes/12 Stripped, Dynamically Linked.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Endless Cycle - Easy"
+              "title": "Outline of 12 Stripped, Dynamically Linked"
             }
           },
           {
@@ -181,6 +181,21 @@
   },
   "active": "cb3606b950eba0ca",
   "lastOpenFiles": [
+    "Assets/Screenshot 2025-03-16 at 10.23.02 PM.png",
+    "Notes/11 Bss section.md",
+    "Notes/10 Libc.md",
+    "Notes/9 Syscalls.md",
+    "Notes/8 Stack.md",
+    "Notes/7 Subroutines.md",
+    "Notes/6 Loops.md",
+    "Notes/5 Data Types.md",
+    "Notes/4 Data Movement.md",
+    "Notes/3 Arithmetic Instructions.md",
+    "Notes/2 Registers.md",
+    "Assets/Pasted image 20250112130243.png",
+    "Notes/1 Address Endianness.md",
+    "Assets/Screenshot 2025-01-12 at 1.18.53 PM.png",
+    "HTB Cyber Apocalpyse 2025/Endless Cycle - Easy.md",
     "Assets/Screenshot 2025-04-01 at 2.12.31 PM.png",
     "HTB Cyber Apocalpyse 2025/ImpossiMaze - Easy.md",
     "Assets/Screenshot 2025-04-01 at 4.14.48 PM.png",
@@ -193,22 +208,7 @@
     "Assets/Screenshot 2025-04-01 at 10.47.02 AM.png",
     "Assets/Screenshot 2025-04-01 at 10.46.41 AM 1.png",
     "Assets/Screenshot 2025-04-01 at 10.45.44 AM 1.png",
-    "HTB Cyber Apocalpyse 2025/Endless Cycle - Easy.md",
     "HTB Cyber Apocalpyse 2025/Encrypted Scroll - Very Easy.md",
-    "Assets/Screenshot 2025-04-01 at 11.58.08 AM.png",
-    "Assets/Screenshot 2025-04-01 at 10.59.59 AM.png",
-    "Assets/Screenshot 2025-04-01 at 11.01.38 AM 1.png",
-    "Notes/1 Address Endianness.md",
-    "Notes/2 Registers.md",
-    "Notes/3 Arithmetic Instructions.md",
-    "Notes/4 Data Movement.md",
-    "Notes/5 Data Types.md",
-    "Notes/6 Loops.md",
-    "Notes/7 Subroutines.md",
-    "Notes/8 Stack.md",
-    "Notes/9 Syscalls.md",
-    "Notes/10 Libc.md",
-    "Notes/11 Bss section.md",
     "Notes/12 Stripped, Dynamically Linked.md",
     "Assets",
     "Notes/Tools/Venv for python scripts.md",

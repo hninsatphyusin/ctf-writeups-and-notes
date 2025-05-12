@@ -14,8 +14,7 @@ Run this below in gdb (not gef)
 ```
 break __libc_start_main
 ```
-
-![[Screenshot 2025-03-16 at 10.23.02 PM.png]]
+![](../Assets/Screenshot%202025-03-16%20at%2010.23.02%20PM.png)
 The first argument in the breakpoint here is the address of the main function 
 
 

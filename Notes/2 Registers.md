@@ -34,7 +34,8 @@ current stack pointer - points to current location within the stack (top of the 
 instruction pointer - holds the address of the next instruction
 
 # Sub-registers 
-![[Pasted image 20250112130243.png]]
+![](../Assets/Pasted%20image%2020250112130243.png)
+
 
 
 The following are the names of the sub-registers for all of the essential registers in an x86_64 architecture:
