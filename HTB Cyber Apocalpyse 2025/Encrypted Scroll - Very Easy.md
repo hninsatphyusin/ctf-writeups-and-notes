@@ -1,6 +1,6 @@
-![](Screenshot%202025-04-01%20at%2011.27.55%20AM.png)
+![](Assets/Screenshot%202025-04-01%20at%2011.27.55%20AM.png)
 Here the `main` function prints some text, asks for input and then runs `decrypt_message` on the input.
-![](Screenshot%202025-04-01%20at%2011.01.38%20AM.png)
+![](Assets/Screenshot%202025-04-01%20at%2011.01.38%20AM.png)
 A `int64_t` variable named secret is declared. The string starting from `IUC..` is copied to the memory location of secret. 
 
 After that it starts the loop 
@@ -37,7 +37,7 @@ Running it you get the flag: HTB{s1mpl3_fl4g_4r1thm3t1c}
 The faster solution without understanding the decryption algorithm that i actually used to solved in the ctf. 
 
 In the `decrypt message` function after the `while` loop
-![](Screenshot%202025-04-01%20at%2011.01.38%20AM%201.png)
+![](Assets/Screenshot%202025-04-01%20at%2011.01.38%20AM%201.png)
 The actual flag is actually decrypted and still stored at the same address as secret. 
 Running this in gdb and breaking at the strcmp part will allow us to see the arguments (which is the decrypted secret)
 
@@ -66,7 +66,7 @@ Seeing the disassembled code
 We can see at address `000012be`, secret is at `rbp-0x30`.
 
 However, in order to get in running with gdb, you have to patch the binary to remove the anti-debugging stuff so that the main function looks like the one below. In binary ninja, you can just `ctrl` + `click` (mac) or `right click` (windows) on the line with `anti_debug()`, click on `Patch` and then `Convert to NOP`. Then `Save As` the file with the option `Save file contents only`
-![](Screenshot%202025-04-01%20at%2010.59.59%20AM.png)
+![](Assets/Screenshot%202025-04-01%20at%2010.59.59%20AM.png)
 However, we can't just set a breakpoint at 0x012be to find the address at `rbp-0x30`because of PIE. Run the patched executable with gdb-gef first to allow the randomised address to load. 
 
 Then `disass decrypt_message` 
@@ -103,4 +103,4 @@ Dump of assembler code for function decrypt_message:
 Now set a breakpoint at the line `call   0x555555555070 <strcmp@plt>`, using `b *0x0000555555555323`. Rerun the program in gdb, input in arbitrary values for when prompt. 
 
 When u stop at the strcmp, gef nicely shows u the arguments of strcmp and u can also see it in the stack. Alternatively, you can inspite the `rdi` and `rsi`
-![](Screenshot%202025-04-01%20at%2011.58.08%20AM.png)
+![](Assets/Screenshot%202025-04-01%20at%2011.58.08%20AM.png)
