@@ -1,4 +1,4 @@
-![](Assets/Screenshot%202025-04-01%20at%2011.27.55%20AM.png)
+![](../Assets/Screenshot%202025-04-01%20at%2011.27.55%20AM.png)
 Here the `main` function prints some text, asks for input and then runs `decrypt_message` on the input.
 ![](Assets/Screenshot%202025-04-01%20at%2011.01.38%20AM.png)
 A `int64_t` variable named secret is declared. The string starting from `IUC..` is copied to the memory location of secret. 
