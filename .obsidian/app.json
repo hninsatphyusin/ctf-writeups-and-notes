@@ -2,5 +2,6 @@
   "newFileLocation": "current",
   "attachmentFolderPath": "Assets",
   "useMarkdownLinks": true,
-  "promptDelete": false
+  "promptDelete": false,
+  "newLinkFormat": "relative"
 }

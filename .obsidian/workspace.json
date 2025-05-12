@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "HTB Cyber Apocalpyse 2025/Encrypted Scroll - Very Easy.md",
+                "file": "HTB Cyber Apocalpyse 2025/Sealed Rune - Very Easy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Encrypted Scroll - Very Easy"
+              "title": "Sealed Rune - Very Easy"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "HTB Cyber Apocalpyse 2025/Encrypted Scroll - Very Easy.md",
+                "file": "HTB Cyber Apocalpyse 2025/Sealed Rune - Very Easy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Encrypted Scroll - Very Easy"
+              "title": "Backlinks for Sealed Rune - Very Easy"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "HTB Cyber Apocalpyse 2025/Encrypted Scroll - Very Easy.md",
+                "file": "HTB Cyber Apocalpyse 2025/Sealed Rune - Very Easy.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Encrypted Scroll - Very Easy"
+              "title": "Outgoing links from Sealed Rune - Very Easy"
             }
           },
           {
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "HTB Cyber Apocalpyse 2025/Encrypted Scroll - Very Easy.md",
+                "file": "HTB Cyber Apocalpyse 2025/Sealed Rune - Very Easy.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Encrypted Scroll - Very Easy"
+              "title": "Outline of Sealed Rune - Very Easy"
             }
           },
           {
@@ -181,22 +181,22 @@
   },
   "active": "cb3606b950eba0ca",
   "lastOpenFiles": [
+    "Assets/Screenshot 2025-04-01 at 10.52.02 AM.png",
+    "Assets/Screenshot 2025-04-01 at 10.50.33 AM.png",
+    "Assets/Screenshot 2025-04-01 at 10.47.02 AM.png",
+    "Assets/Screenshot 2025-04-01 at 10.46.41 AM 1.png",
+    "Assets/Screenshot 2025-04-01 at 10.45.44 AM 1.png",
+    "HTB Cyber Apocalpyse 2025/Endless Cycle - Easy.md",
+    "HTB Cyber Apocalpyse 2025/Encrypted Scroll - Very Easy.md",
     "Assets/Screenshot 2025-04-01 at 11.58.08 AM.png",
     "Assets/Screenshot 2025-04-01 at 10.59.59 AM.png",
     "Assets/Screenshot 2025-04-01 at 11.01.38 AM 1.png",
     "Assets/Screenshot 2025-04-01 at 11.01.38 AM.png",
     "Assets/Screenshot 2025-04-01 at 11.27.55 AM.png",
     "Assets/Screenshot 2025-04-01 at 10.46.41 AM.png",
-    "Assets/Screenshot 2025-04-01 at 10.45.44 AM.png",
-    "Assets/Screenshot 2025-05-12 at 5.58.59 PM.png",
-    "Assets/Screenshot 2025-05-12 at 5.58.42 PM.png",
-    "HTB Cyber Apocalpyse 2025/Endless Cycle - Easy.md",
-    "Assets/Screenshot 2025-01-12 at 1.18.53 PM.png",
-    "Assets/Screenshot 2025-05-12 at 5.57.28 PM.png",
     "HTB Cyber Apocalpyse 2025/Sealed Rune - Very Easy.md",
     "HTB Cyber Apocalpyse 2025/ImpossiMaze - Easy.md",
     "HTB Cyber Apocalpyse 2025/Screenshot.md",
-    "HTB Cyber Apocalpyse 2025/Encrypted Scroll - Very Easy.md",
     "HTB Cyber Apocalpyse 2025/SingleStep - Medium.md",
     "Notes/1 Address Endianness.md",
     "Notes/2 Registers.md",
