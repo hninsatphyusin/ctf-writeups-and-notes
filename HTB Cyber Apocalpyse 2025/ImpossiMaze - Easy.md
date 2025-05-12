@@ -1,5 +1,6 @@
 Running the binary shows that it displays a maze and then you can navigate around the maze with ur arrow keys
-![[Screenshot 2025-04-01 at 4.04.16 PM.png]]
+![](../Assets/Screenshot%202025-04-01%20at%204.04.16%20PM.png)
+
 
 Inspecting the pseudo-C code in binary ninja we see most of the code actually just being the actual maze logic. 
 
@@ -33,5 +34,5 @@ We resize the window size of the terminal using python.
 python3 -c "import os; print('\x1b[8;13;37t')"
 ```
 Then executing the binary again
-![[Screenshot 2025-04-01 at 4.14.48 PM.png]]
+![](../Assets/Screenshot%202025-04-01%20at%204.14.48%20PM.png)
 Compared to the other easy challenge, this is easier.

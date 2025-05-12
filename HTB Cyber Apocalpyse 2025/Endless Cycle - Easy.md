@@ -1,5 +1,4 @@
-
-![[Screenshot 2025-04-01 at 2.12.31 PM.png]]
+![](../Assets/Screenshot%202025-04-01%20at%202.12.31%20PM.png)
 In the main function, it calls mmap to allocate a memory region of size 0x9e and the ptr to the memory region is assigned to rax. 
 
 In the first for loop, it traverses through the memory region. At the end of every iteration, the random number is stored at the address rax + i. 
