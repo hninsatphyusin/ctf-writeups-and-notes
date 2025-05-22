@@ -1,3 +1,5 @@
+OS: Linux 
+
 Nmap Enumeration
 ```
 PORT     STATE  SERVICE REASON         VERSION
