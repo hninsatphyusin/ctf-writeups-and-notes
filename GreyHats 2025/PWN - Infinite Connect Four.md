@@ -1,5 +1,5 @@
 ## Finding the bug
-n the source code there is a main function that operates the game and also an uncalled `win` function that will open us a shell. We also find that the `game` function that is called in main within which we find the bug: 
+In the source code there is a main function that operates the game and also an uncalled `win` function that will open us a shell. We also find that the `game` function that is called in main within which we find the bug: 
 ```c
 int colint = col - '0';
 if (board[7][colint] == player1symbol || board[7][colint] == player2symbol) {
@@ -111,7 +111,7 @@ Then by instead of `A` and `B` for the player symbol we set them as `\x1f` and `
 Apparently we can just bruteforce this a few times as the first few hex digits will most likely be the same so we just need to bruteforce it until the fourth last nibble matches and then we'll be able to redirect to win. 
 
 ## python pwn script
-We just keep running this script until there isn't an SIGSEGV error
+We just keep running this script until there isn't an SIGSEGV error and it spawns the shell
 ``` python
 from pwn import * 
 
