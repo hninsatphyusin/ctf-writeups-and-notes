@@ -1,3 +1,4 @@
+# Infinite Connect Four
 ## Finding the bug
 In the source code there is a main function that operates the game and also an uncalled `win` function that will open us a shell. We also find that the `game` function that is called in main within which we find the bug: 
 ```c
