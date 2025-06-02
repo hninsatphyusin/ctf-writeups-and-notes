@@ -15,6 +15,7 @@ Hence it is possible for us to make the `lastfree` negative and then overwrite t
 
 In Binary Ninja, we dump the elf file in and see what data is stored before the `board`: 
 ![](../Assets/Screenshot%202025-06-02%20at%201.26.42%20PM.png)
+
 We can see that the Global Offset Table is right above the board. Overwriting a GOT entry will allow us to redirect the program to the `win` function. Here in this case, exit is the last function and the nearest function to the board so that is what we will overwrite. So whenever `exit` is called, it will actually run `win` instead. 
 
 So the board is at offset 0x60a0 and the GOT is at 0x6060 so there is a difference in 0x40 bytes
