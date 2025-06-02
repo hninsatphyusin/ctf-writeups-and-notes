@@ -1,4 +1,3 @@
-Its a pretty standard reverse engineering challenge but i tried to solve this using ANGR
 
 Disassembling the binary in binary ninja shows this
 ```
@@ -150,14 +149,6 @@ Now the output of c is compared to `enc`, which is `\xd1\x15\x8a\xee\xb5\xbb\x0c
 Now we just need to take the 
 ```
 #!/usr/bin/env python3
-import angr
-import sys
-import logging
-
-logging.getLogger('angr').setLevel('INFO')
-logging.getLogger('angr').addHandler(logging.StreamHandler())
-
-BINARY = "./dist_rev"
 
 ENC = bytes([0xd1, 0x58, 0x15, 0x8a, 0xee, 0xb5, 0xbb, 0x52, 0x0c, 0x6b, 0xa4, 0xab, 0x6d, 0x7d, 0xb7])
 
