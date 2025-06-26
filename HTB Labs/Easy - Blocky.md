@@ -1,4 +1,5 @@
 OS: Linux 
+Tags: WordPress
 
 Nmap Enumeration
 ```
@@ -86,7 +87,7 @@ hashcat -m 400 -a 0 hash.txt /usr/share/wordlists/rockyou.txt
 ```
 this doesn't return anything
 
-being desperate, i tried to login everything with the usernames 'root' and 'notch' and the only password '8YsqfCTnvxAUeduzjNSXe22'
+i tried to login everything with the usernames 'root' and 'notch' and the only password '8YsqfCTnvxAUeduzjNSXe22'
 
 managed to ssh and ftp into the box with user 'notch' and password '8YsqfCTnvxAUeduzjNSXe22'
 

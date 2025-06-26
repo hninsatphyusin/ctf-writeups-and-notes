@@ -1,3 +1,5 @@
+OS: Windows
+Tags: Active Directory, ACL Abuse
 ### Port Discovery 
 ```
 sudo nmap 10.10.10.161 -p- -vv -n -Pn -T4
