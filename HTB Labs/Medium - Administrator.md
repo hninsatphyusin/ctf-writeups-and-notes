@@ -191,7 +191,7 @@ then we run sharphound
 ```
 
 then we move the htb.zip folder back to the VM through impacket-smbserver that i set up
-load that into bloodhound and see what 
+load that into bloodhound
 
 ## Bloodhound
 make olivia an owned target
